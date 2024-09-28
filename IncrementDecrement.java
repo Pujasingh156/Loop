@@ -1,0 +1,33 @@
+package Loop;
+
+public class IncrementDecrement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		class IncrementDecrementDemo1 {
+
+		    public static void main(String[] args) {
+
+		        int i = 10;
+
+		        System.out.println(i); // 10
+		        System.out.println(i++); // 10
+		        System.out.println(i); // 11
+		        System.out.println(++i); // 12
+		        System.out.println(i); // 12
+
+		    /* a++ , a- - : first the statement is executed
+		    then increment / decrement happens
+		    ++a ,- - a : first increment / decrement happens
+		    then the statement is executed
+		    */
+
+
+		    }
+		}
+
+	}
+
+}
